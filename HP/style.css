@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+html, body, div, tr, th, td, h1, h2, h3, p, a, center, table{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body{line-height: 1;}
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body{
+  font: 14px "ヒラギノ明朝　pro W3","Hiragino Mincho Pro"
+}
+
+#main{background: blue;
+      width:700px;
+      float: right
+
+}
+#side{background: gray;
+      width:160px;
+      font-size:20px;
+      margin-left:30px;
+      float: left;
+    }
+
+#wrapper{background: green;
+        width:900px;
+        padding;30px;
+        margin: 0 auto;
+        overflow: hidden
+    }
+
+  #wrapper h1{
+    color: red;
+    font-size:40px;
+    margin-bottom:10px;
+  }
+
+  #wrapper h2{
+    font-size:25px;
+    margin-bottom:5px;
+  }
+  #wrapper p {
+    font-size:15px;
+    margin-bottom: 7px
+  }
+
+  #footer{
+    text-align:center;
+    font-size: 30px;
+    margin-top:30px;
+  }
