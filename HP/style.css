@@ -58,3 +58,29 @@ body{
     font-size: 30px;
     margin-top:30px;
   }
+
+#outcome h1 {
+  color: red;
+  font-size:40px;
+  margin-bottom:10px
+}
+
+#outcome h2{
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+#outcome h3{
+  font-size: 15px
+}
+
+#spec h1{
+  color: red;
+  font-size:40px;
+  margin-bottom:10px
+}
+
+#spec h2{
+  font-size: 25px;
+  margin-bottom: 5px;
+}
