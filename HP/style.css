@@ -38,19 +38,18 @@ body{
         overflow: hidden
     }
 
-  #wrapper h1{
-    color: red;
-    font-size:40px;
-    margin-bottom:10px;
-  }
 
-  #wrapper h2{
-    font-size:25px;
+  #main h1{
+    font-size:35px;
     margin-bottom:5px;
   }
-  #wrapper p {
-    font-size:15px;
+  #main p {
+    font-size:25px;
     margin-bottom: 7px
+  }
+
+  #side p{
+    font-size:15px
   }
 
   #footer{
@@ -77,4 +76,8 @@ body{
 #spec h2{
   font-size: 25px;
   margin-bottom: 5px;
+}
+
+#discord a{
+  font-size: 20px
 }
