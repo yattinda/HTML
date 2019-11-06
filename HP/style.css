@@ -21,7 +21,7 @@ body{
 
 #main{
       width:700px;
-      float: right
+      float: right;
 
 }
 #side{
@@ -80,4 +80,46 @@ body{
 
 #discord a{
   font-size: 20px
+}
+
+#spurs {
+  background-color: blue;
+
+
+  height:800px;
+}
+
+#spurs h1{
+  color: red;
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+#spurs h2 {
+  font-size: 25px;
+}
+#spurs h3{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+#spurs a {
+  float: right;
+}
+
+
+#Wizards  {
+  background-color: red;
+
+
+  height:800px;
+}
+
+#Wizards h1{
+  color: red;
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+#wizards a{
+  float: right;
 }
