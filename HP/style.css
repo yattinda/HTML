@@ -58,13 +58,18 @@ body{
     margin-top:30px;
   }
 
-#keibatytle{
-  font-size: 50px;
+  #keibatytle{
   color: #010079;
   text-shadow: 0 0 5px white;
   border-left: solid 7px #010079;
   background: -webkit-repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
   background: repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+}
+
+  #keibatytle p{
+  font-size: 60px;
+  margin: 0;
+  margin: 0;
 }
 
 #keiba{
@@ -121,10 +126,52 @@ body{
   font-size: 15px
 }
 
-#pc {
+#entire{
+  float: left;
+  width: 60%;
+}
+#entire p{
+  font-size: 25px;
+}
+#entire b{
+  font-size: 30px;
+}
+
+#F_tytle{
+  padding: 8px 19px;
+   margin: 2em 0;
+   color: #2c2c2f;
+   background: #cde4ff;
+   border-top: solid 5px #5989cf;
+   border-bottom: solid 5px #5989cf;
+}
+#F_tytle p{
+  font-size: 35px;
+}
+
+#advantage{
+  font-size: 30px;
+}
+
+#spec_tytle{
+  padding: 8px 19px;
+   margin: 2em 0;
+   color: #2c2c2f;
+   background: #cde4ff;
+   border-top: solid 5px #5989cf;
+   border-bottom: solid 5px #5989cf;
+}
+#spec_tytle p{
+  font-size: 35px;
+}
+#explain h1{
+  font-size: 30px;
+  color: red;
+}
+#PC {
   width:auto 100%;
 }
-#spec {
+#PC {
   float: right;
   width: 35%;
   padding: 0.5em 1em;
@@ -132,13 +179,13 @@ body{
   background: #f0f7ff;
   border: dashed 2px #5b8bd0;
 }
-#spec h1{
+#PC h1{
   color: red;
   font-size:40px;
   margin-bottom:10px
 }
 
-#spec h2{
+#PC h2{
   font-size: 25px;
   margin-bottom: 5px;
 }
@@ -151,11 +198,11 @@ body{
   width: 100%;
 }
 #spurs_main{
-  height: 750px;
+  height: 800px;
 }
 
 #Wizards_main{
-  height: 750px;
+  height: 800px;
 }
 #spurs {
   width: 70%;
@@ -184,6 +231,10 @@ body{
 
 }
 
+#movie_Spurs{
+  font-size: 25px;
+}
+
 #Wizards {
   width: 70%;
   float: left;
@@ -209,10 +260,15 @@ body{
   background: #fff8e8;
   border-left: solid 10px #ffc06e;
 }
+
+#movie_Wizards{
+  font-size: 25px;
+}
+
 #NBA ul{
   font-size: 25px;
 }
 
 #NBA a{
-  font-size : 20px;
+  font-size : 30px;
 }
