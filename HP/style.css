@@ -58,6 +58,60 @@ body{
     margin-top:30px;
   }
 
+#keibatytle{
+  font-size: 50px;
+  color: #010079;
+  text-shadow: 0 0 5px white;
+  border-left: solid 7px #010079;
+  background: -webkit-repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+  background: repeating-linear-gradient(-45deg, #cce7ff, #cce7ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+}
+
+#keiba{
+  width: 100%;
+}
+#win {
+  float: right;
+  width: 30%;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #f0f7ff;
+  border: dashed 2px #5b8bd0;
+}
+
+
+
+
+#intro{
+  float: left;
+  width: 60%;
+}
+
+#intro h1{
+  font-size: 35px;
+}
+
+#intro p{
+  font-size: 20px;
+}
+
+#intro font{
+   background: linear-gradient(transparent 0%, #a7d6ff 0%);
+}
+
+#fascinate{
+     padding: 0.2em 0.5em;
+     margin: 2em 0;
+     background: #d6ebff;
+     box-shadow: 0px 0px 0px 10px #d6ebff;
+     border: dashed 2px white;
+}
+
+#fascinate p{
+    margin: 0;
+    padding: 0;
+}
+
 #outcome h1{
   font-size: 25px;
   margin-bottom: 5px;
@@ -67,6 +121,17 @@ body{
   font-size: 15px
 }
 
+#pc {
+  width:auto 100%;
+}
+#spec {
+  float: right;
+  width: 35%;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  background: #f0f7ff;
+  border: dashed 2px #5b8bd0;
+}
 #spec h1{
   color: red;
   font-size:40px;
@@ -79,47 +144,75 @@ body{
 }
 
 #discord a{
-  font-size: 20px
+  font-size: 20px;
 }
 
+#NBA{
+  width: 100%;
+}
+#spurs_main{
+  height: 750px;
+}
+
+#Wizards_main{
+  height: 750px;
+}
 #spurs {
-  background-color: blue;
-
-
-  height:800px;
+  width: 70%;
+  float: left;
 }
 
+#spurs_twitter{
+  width: 30%;
+  float: right;
+}
 #spurs h1{
-  color: red;
   font-size: 35px;
-  margin-bottom: 5px;
+  color: black;
+  padding: 0.5em 0;
+  border-top: solid 3px ;
+  border-bottom: solid 3px ;
 }
 
 #spurs h2 {
   font-size: 25px;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #232323;
+  background: #fff8e8;
+  border-left: solid 10px #ffc06e;
+
 }
-#spurs h3{
-  font-size: 20px;
-  margin-bottom: 5px;
+
+#Wizards {
+  width: 70%;
+  float: left;
 }
-#spurs a {
+
+#wizards_twitter{
+  width: 30%;
   float: right;
 }
-
-
-#Wizards  {
-  background-color: red;
-
-
-  height:800px;
-}
-
 #Wizards h1{
-  color: red;
   font-size: 35px;
-  margin-bottom: 5px;
+  color: black;
+  padding: 0.5em 0;
+  border-top: solid 3px ;
+  border-bottom: solid 3px ;
 }
 
-#wizards a{
-  float: right;
+#Wizards h2{
+  font-size: 25px;
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #232323;
+  background: #fff8e8;
+  border-left: solid 10px #ffc06e;
+}
+#NBA ul{
+  font-size: 25px;
+}
+
+#NBA a{
+  font-size : 20px;
 }
