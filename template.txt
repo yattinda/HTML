@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!--外部リンク-->
+      <link rel = "stylesheet" href = "***.css">
+      <script src="***.js"></script>
+  </head>
+  <body>
+  <body background="image/****">
+
+    <a href = "index.html"style="text-align:right">TOP</a>
+  </body>
+</html>
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ onClick="if(!confirm('20歳以上ですか')) { return false; }"　ポップアップ
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+<img src="image/**.**" alt="***"  title="***" width ="***" height= "***">
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+<p>
+  <table>
+  <tr>
+    <td bgcolor="#ffe600">
+      <font color = "red">アクセスカウンタ</font>
+    </td>
+  </tr>
+</table>
+</p>
+<table border="0" cellspacing="0" cellpadding="0"><tr><td align="center"><img src="http://www.rays-counter.com/d445_f6_023/5d8c9d9b6a109/" alt="アクセスカウンター" border="0"></a></td></tr><tr><td align="center"><img src="http://www.rays-counter.com/images/counter_01.gif" border="0"><img src="http://www.rays-counter.com/images/counter_02.gif" border="0"><img src="http://www.rays-counter.com/images/counter_03.gif" border="0"><img src="http://www.rays-counter.com/images/counter_04.gif" border="0" ><img src="http://www.rays-counter.com/images/counter_05.gif" border="0"></td></tr></table>
+<p>目の訪問者です</p>
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+background: gray  //css の範囲チェック
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++;;;
+蛍光色マーカー
+
+<p>
+  <table>
+  <tr>
+    <td bgcolor="#ffe600">
+      <font color = "red">＊＊＊＊</font>
+    </td>
+  </tr>
+</table>
+</p>
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+点滅
+<font color="#ff0000" size="7">
+<span id="blink1041">＊＊＊＊</span>
+<script>with(blink1041)id='',style.opacity=1,setInterval(function(){style.opacity^=1},500)</script>
+</font>
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+<center>
+<table>
+<tr>
+<td width="線の長さ">
+<hr color="線の色" size="線の太さ">
+</td>
+
+<td width="ｽｸﾛｰﾙの横幅">
+<marquee direction="right" loop="infinite">ｽｸﾛｰﾙさせる文字</marquee>
+</td>
+<td width="線の長さ">
+<hr color="線の色" size="線の太さ">
+</td>
+</tr>
+</table>
+</center>
