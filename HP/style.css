@@ -190,6 +190,11 @@ body{
   margin-bottom: 5px;
 }
 
+#spec table{
+  font-size: 20px;
+
+}
+
 #discord a{
   font-size: 30px;
 }
